@@ -8,6 +8,7 @@ import Services from './Components/Services/Services';
 import Error from './Components/Error/Error';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Coach from './Components/Coach/Coach';
+import Banner from './Components/Banner/Banner';
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
           <Header></Header>
         </Route>
         <Switch>
+          <Route path="/banner">
+            <Banner></Banner>
+          </Route>
           <Route path="/home">
             <Home></Home>
           </Route>

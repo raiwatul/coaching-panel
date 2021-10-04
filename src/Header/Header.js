@@ -26,6 +26,10 @@ const Header = () => {
                                 <li className="nav-item">
                                     <NavLink className="nav-link nav-margin fs-5 fw-bold" to="/about">About</NavLink>
                                 </li>
+                                <li className="nav-item">
+                                    <NavLink className="nav-link nav-margin fs-5 fw-bold" to="/banner">Banner</NavLink>
+                                </li>
+
 
 
 
